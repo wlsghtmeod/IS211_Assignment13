@@ -14,7 +14,7 @@ def gcd(a,b):
     return gcd(b%a, a)
 
 
-def compareTo(s1,s2):
+def compareTo(a,b):
     if a < b:
         return -1
     elif a > b:
